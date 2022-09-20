@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 860px;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    color: #0f141e;
+}
+
+img {
+
+    width: 200px;
+    display: table-cell;
+    margin-bottom: 18px;
+    border-radius: 4px;
+}
+
+table {
+    float: right;
+    max-width: 100%;
+    margin-left: 25px;
+}
+
+table td {
+    padding-bottom: 6px;
+}
+
+table td:nth-child(1) {
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+table td:nth-child(2) {
+    text-align: right;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+h1 {
+    margin-bottom: 18px;
+}
+
+p {
+    margin-bottom: 18px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #66CDAA;
+}
+
+.social:hover {
+        box-shadow: 0px 0px 14px rgba(45, 73, 98, 0.455);
+        transition: all 0.45s;
+
+}
+
+a .social {
+    padding: 10px 22px;
+    margin-bottom: 18px;
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 20px;
+    display: inline;
+
+}
+
+button {
+    margin-bottom: 300px;
+    margin-top: 18px;
+    width: 100%;
+    padding: 10PX;
+    border-radius: 4px;
+    border: none;
+}
+
+.card {
+    display: flex;
+    width: 100hv;
+    text-align: center;
+}
+
+.massage {
+        width: 100vh;
+        justify-content: center;
+
+}
+
+form {
+        text-align: center;
+}
+input, textarea .button {
+    text-align: center;
+    width: 425px;
+    height: 30px;
+    border: none;
+    border: 1px solid #66CDAA;
+    border-radius: 4px;
+}
+
+h3 {
+    text-align: center;
+}
+
+button:hover {
+    background-color: #66CDAA;
+    transition: all 0.25s;
+}
